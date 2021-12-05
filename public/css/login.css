@@ -1,0 +1,84 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #ebebeb;
+}
+
+form{
+    padding: 15px 20px;
+    max-width: 400px;
+    
+}
+
+.titulocampo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+    padding: 3px 0;
+}
+form label{
+    padding: 10px 0;
+    display: block;
+    margin: 10px 0;
+}
+
+
+fieldset{
+    border-style: none;
+}
+.nombrecampo{
+    font-size: 18px;
+    font-weight: bold;
+}
+.camposvacios{
+    width: 80vw;
+    max-width: 400px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+}
+.cajabotones{
+    margin-top: 10px;
+    max-width: 400px;
+    text-align: right;
+    
+}
+
+button {
+    font-size: 12px;
+    border-radius: 8px;
+    transition: 300ms;
+    text-align: right;
+   
+}
+
+#boton{
+    border: none;
+    text-align: right;
+    font-size: 16px;
+    
+}
+
+#boton:hover{
+    background-color: #0022AA;
+    color: #ebebeb;
+}
+button:hover {
+    background-color: #0022AA;
+    
+}
+
+
+@media (min-width: 768px) {
+    
+    .camposvacios{
+        max-width: 400px;
+    }
+    
+    button{
+        width: 70px;
+    }
+}  

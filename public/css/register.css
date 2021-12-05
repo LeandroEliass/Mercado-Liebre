@@ -1,0 +1,82 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #ebebeb;
+}
+
+form{
+    padding: 15px 20px;
+    max-width: 400px;
+}
+.perfil{
+    margin-inline: 5%; 
+}
+
+form label{
+    padding: 10px 0;
+    display: block;
+}
+
+.etiquetano{
+    display: none;
+}
+
+fieldset{
+    border-style: none;
+}
+.titulocampo{
+    font-size: 18px;
+    font-weight: bold;
+}
+.camposvacios{
+    width: 80vw;
+    max-width: 400px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.ultimocampo{
+    margin-top: 10px;
+}
+input{
+    padding: 3px 0;
+}
+ul li{
+    display: flex;
+    
+}
+ul input{
+    margin-right : 15px;
+}
+button {
+    font-size: 12px;
+    border-radius: 8px;
+    width: 20%;
+    margin-inline: 10px;
+}
+button input{
+    border: none;
+}
+.archivo{
+    padding: 6px 0;
+    font-size: 14px;
+}
+
+.cajabotones{
+    text-align: right;
+    max-width: 400px;
+}
+
+@media (min-width: 760px) {
+    
+    .camposvacios{
+        max-width: 400px;
+    }
+    button{
+        width: 70px;
+    }
+    
+}  
