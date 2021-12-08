@@ -158,6 +158,30 @@ button input{
     text-align: right;
     max-width: 400px;
 }
+footer{
+    text-align: center;
+    background-color: #ebebeb;
+    padding-top: 35px;
+   
+}
+#ifooter{
+    text-align: center;
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    transition: all 600ms;
+} 
+#ultimafrase{
+    font-size: 12px;
+    text-align: left;
+    padding: 20px 15px;
+}
+.tarjeta{
+    padding: 15px;
+}
+
+
+
 
 @media (min-width: 760px) {
         
@@ -223,3 +247,23 @@ button input{
     }
     
 }  
+
+@media (min-width: 1200px) {
+    #ifooter{
+        transition: all 400ms;
+    }
+    .tarjeta{
+        padding: 20px;
+        max-width: 33%;
+    }
+    #ultimafrase{
+        
+        padding-left: 25px;
+        padding-bottom: 20px;
+    }
+    
+    #ifooter:hover{
+        color: purple
+    }
+
+}
