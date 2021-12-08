@@ -12,6 +12,30 @@
 <link rel="stylesheet" href="/css/register.css">
 </head>
 <body>
+    <header>
+        <section class="menuprincipal">
+          <figure id="logo"> <img  src="images/logo-mercado-liebre.svg" alt=""> </figure>
+           <span class="barranavegacion" href=""><input type="text" placeholder="Buscar productos, marcas" name="buscar"> <button id="lupa"><i  class="fas fa-search"></i></button></span>      
+       <h4 class="compra" ><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjetas de crédito </h4>
+           </section>
+           <a id="burguer" href="#"><i  class= "fas fa-bars"> </i></a> 
+       
+           <nav class="listas">
+           <ul>
+               <li><a href="ofertas">Ofertas</a></li>
+               <li><a href="Tiendas">Tiendas Oficiales</a></li>
+               <li><a href="Vender">Vender</a></li>
+               <li><a href="Ayuda">Ayuda</a></li> </ul>
+           
+           <ul>
+               <li><a href="/register">Creá tu cuenta  <i class="far fa-id-card"></i></a></li>
+           <li><a href="/ingresar">Ingresá  <i class="fa-solid fa-right-to-bracket"></i> </a>  </li>
+           <li><a href="Mis compras">Mis compras  <i class="fas fa-shopping-basket"></i> </a></li>
+       </ul>
+           </nav>
+             
+   </header>  
+   <main>
     <form action="/" method="POST">
         <fieldset> 
             <legend class="titulocampo"  for="datos">Datos personales</legend>
@@ -70,5 +94,6 @@
 <button class="botones"><input type="reset" value="Enviar"></button>
 </fieldset>
     </form>
+    </main>
 </body>
 </html>
