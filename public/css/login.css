@@ -94,6 +94,8 @@ form{
     background-color: #ebebeb;
     padding: 15px 20px;
     max-width: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
     
 }
 
@@ -237,6 +239,10 @@ footer{
     width: 33%;
     text-align: center;
 }
+form{
+    margin-left: 25%;
+    margin-right: 20%;
+}
 
     .camposvacios{
         max-width: 400px;
@@ -262,6 +268,9 @@ footer{
     .tarjeta{
         padding: 20px;
         max-width: 33%;
+    }
+    form{
+        margin-left: 35%;
     }
     #ultimafrase{
         
