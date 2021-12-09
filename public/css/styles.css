@@ -258,6 +258,9 @@ box-shadow: 0px 0px 10px rgb(100, 100, 100);
     padding-left: 5%;
 }
 #electro{
+    display: none;
+}
+article:hover #electro{
     display: block;
 }
 
@@ -290,6 +293,9 @@ article{
     margin: 15px;
 }
 
+article:hover #electro{
+    display: block;
+}
 
 #titulares{
     padding-left: 25px;
